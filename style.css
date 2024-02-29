@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    border-bottom: 4px solid aliceblue;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 21px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 22px;
+    outline: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    background: brown;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    letter-spacing: .5px;
+}
+
+.pic-content {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+img {
+    position: absolute;
+    max-width: 900px;
+    left: -100px;
+    top: -5px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.anchors {
+    display: flex;
+    flex-direction: column;
+}
+
+.partnership, .about, .support, a {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 4px;
+    padding: 4px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
